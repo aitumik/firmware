@@ -65,5 +65,5 @@ void loop() {
       Serial.print(client.getString());
     }
   }
-  delay(10000);
+  delay(1000);
 }
