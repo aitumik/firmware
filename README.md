@@ -17,13 +17,10 @@ This is the firmware that will be flashed on esp8266 mcu and that will be readin
 * A usb cable for powering the mcu
 
 ### Instructions(Hardware)
-* Mount the mcu on the board at the center as shown in the image below
-![esp mounted](/screenshots/espmounted.png)
-* Mount the DHT11 humidity and temperature sensor on the bread board as show
-  below
-![dht_mounted](/screenshots/dhtmounted.png)
+* Mount the mcu on the board at the center
+* Mount the DHT11 humidity and temperature sensor on the bread board
 * Take one of the gpio pins and connect it to the data terminal on the dht11
-sendor
+sensor
 * Connect the voltage(3.3v) pin to the the vcc terminal on the dht11 sensor
 * Connect the esp8266 ground(GND) to the dht11 sensor ground
 * Connect the cable to any power source
@@ -53,6 +50,9 @@ firmware can reach, then you should be able to receive requests from the mcu
 
 Example in screenshot
 ![Example](/screenshots/data.png)
+
+## Libraries 
+[DHT-sensor-library by adafruit](https://github.com/adafruit/DHT-sensor-library)
 
 ## Future features
 * Add the ability to compress the json being sent to the server to save on
