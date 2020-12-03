@@ -10,7 +10,7 @@ This is the firmware that will be flashed on esp8266 mcu and that will be readin
 ### Requirements
 * esp8266 mcu (or any other arv mcu provided that it can access the internet)
   like the one below
-  ![esp_image](/screensot/esp8266.png)
+  ![esp_image](/screenshots/esp8266.png)
 * A breadboard
 * Jumper cables
 * DHT11 humidity and temperature sensor
