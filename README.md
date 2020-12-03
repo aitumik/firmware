@@ -54,5 +54,14 @@ firmware can reach, then you should be able to receive requests from the mcu
 Example in screenshot
 ![Example](/screenshots/data.png)
 
+## Future features
+* Add the ability to compress the json being sent to the server to save on
+  memory
+* Allow for authenticated requests to be sent to and from the server
+
+## Contribution
+Feel free to create a pull request, I will try my best to review an merge your
+feature
+
 ## License
-[MIT](http://google.com=?MIT")
+This project is under [MIT](https://opensource.org/licenses/MIT)
