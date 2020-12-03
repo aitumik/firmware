@@ -47,9 +47,12 @@ Build the project
 ```bash
 pio run --target upload
 ```
+Now if the [API](https://github.com/aitumik/firmware-api) is up and running
+either on the same network with the firmware or just a remote server that the
+firmware can reach, then you should be able to receive requests from the mcu
 
-
-
+Example in screenshot
+![Example](/screenshots/data.png)
 
 ## License
 [MIT](http://google.com=?MIT")
