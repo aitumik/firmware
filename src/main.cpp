@@ -3,7 +3,12 @@
 #include <ESP8266HTTPClient.h>
 #include <ESP8266WiFi.h>
 
+/**
 String api = "http://192.168.0.107:5000/api/v1/data";
+*/
+
+//remote api
+String api = "http://134.122.30.208/api/v1/data";
 
 String ssid = "JOHN"; //enter your own ssid here
 String password = "mugo2020"; //enter your own password here
